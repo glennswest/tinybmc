@@ -1,2 +1,2 @@
-env GOOS=linux GOARCH=arm64 go build -o tinybmc
+env GOOS=linux GOARCH=arm GOARM=5 go build -o tinybmc
 
